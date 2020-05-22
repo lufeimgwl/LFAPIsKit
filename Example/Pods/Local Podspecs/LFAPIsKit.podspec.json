@@ -1,0 +1,27 @@
+{
+  "name": "LFAPIsKit",
+  "version": "1",
+  "summary": "A short description of LFAPIsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lufeimgwl/LFAPIsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "750967344@qq.com": "750967344@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lufeimgwl/LFAPIsKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LFAPIsKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

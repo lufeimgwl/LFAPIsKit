@@ -1,0 +1,6 @@
+framework module Pods_LFAPIsKit_Example {
+  umbrella header "Pods-LFAPIsKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

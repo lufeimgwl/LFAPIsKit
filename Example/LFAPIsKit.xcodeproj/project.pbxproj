@@ -37,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0647280DE0AF65D160DFA763 /* LFAPIsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LFAPIsKit.podspec; path = ../LFAPIsKit.podspec; sourceTree = "<group>"; };
+		0647280DE0AF65D160DFA763 /* LFAPIsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LFAPIsKit.podspec; path = ../LFAPIsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B7E03F18F1EF94708A5803A /* Pods-LFAPIsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIsKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LFAPIsKit_Example/Pods-LFAPIsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		285CB8933D64A431AD8281FB /* Pods-LFAPIsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIsKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LFAPIsKit_Example/Pods-LFAPIsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A94A35EE0680337AC6069AF /* Pods-LFAPIsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIsKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LFAPIsKit_Tests/Pods-LFAPIsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		402FC5D76DE7845061FEBED3 /* Pods_LFAPIsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFAPIsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D280E8498F578AD2C40D443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D280E8498F578AD2C40D443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LFAPIsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAPIsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		820B8BE113269A092517CA48 /* Pods-LFAPIsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIsKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LFAPIsKit_Tests/Pods-LFAPIsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		945F6BBC38CDB77A1CC21F7B /* Pods_LFAPIsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFAPIsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A99A5D32BF586F0325135B49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A99A5D32BF586F0325135B49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				2A94A35EE0680337AC6069AF /* Pods-LFAPIsKit_Tests.debug.xcconfig */,
 				820B8BE113269A092517CA48 /* Pods-LFAPIsKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LFAPIsKit_Example/Pods-LFAPIsKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/LFAPIsKit/LFAPIsKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFAPIsKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
