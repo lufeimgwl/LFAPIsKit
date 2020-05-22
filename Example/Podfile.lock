@@ -14,8 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - LFAPIsKit (1):
     - AFNetworking
+    - FMDB
+    - MBProgressHUD
+  - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - LFAPIsKit (from `../`)
@@ -23,6 +29,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - FMDB
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   LFAPIsKit:
@@ -30,7 +38,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LFAPIsKit: b40f04c12df1d774ba0615057f829ebe8acc372e
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LFAPIsKit: c461ce08032609f683af92d0e736e492d2bd7a31
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 684550a14c88d44466b7084355c65a40aa1378be
 

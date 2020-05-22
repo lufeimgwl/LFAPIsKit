@@ -15,6 +15,9 @@
 #import "APIResponseProtocol.h"
 #import "FFReformProtocol.h"
 #import "NetworkHelper.h"
+#import "DBManager.h"
+#import "FFHelper.h"
+#import "HUDTools.h"
 
 FOUNDATION_EXPORT double LFAPIsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LFAPIsKitVersionString[];
